@@ -36,7 +36,7 @@ class RestaurantTableViewController: UITableViewController {
         return restaurantNames.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
      
         let cellIdentifier = "datacell"
@@ -45,12 +45,12 @@ class RestaurantTableViewController: UITableViewController {
 
         // Configure the cell...
      
-    cell.textLabel?.text = restaurantNames[index-Path.row]
-    cell.imageView?.image = UIImage(named: "restaurant")
+        cell.textLabel?.text = restaurantNames[indexPath.row]
+        cell.imageView?.image = UIImage(named: "restaurant")
     
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
